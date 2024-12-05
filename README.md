@@ -13,7 +13,7 @@ cmdstanpy.install_cmdstan()
 ### 2. Creating a .stan file
   a. Navigate to [Stan Regression Model](https://mc-stan.org/docs/stan-users-guide/regression.html) and copy the first model on the page or copy from the space below.
 
-  b. Create a text file in Jupyter Lab and paste the model in, then rename it as a .stan file.
+  b. In the same folder as you made the notebook create a text file in Jupyter Lab and paste the model in, then rename it as a .stan file.
 
  ### Stan Linear Regression Model
 
