@@ -4,8 +4,11 @@
 ### 1. Installation
 a. In your console you will need to install Stan on your device use ```pip install cmdstanpy```
 
-b. Once installed in go into Jupyter Lab and when importing cmdstanpy you have to install cmdstan 
-```import cmdstanpy cmdstanpy.install_cmdstan()``` 
+b. Once installed go into Jupyter Lab and then import cmdstanpy this lets you install cmdstan 
+```
+import cmdstanpy 
+cmdstanpy.install_cmdstan()
+``` 
 
 ### 2. Compiling
   a. Navigate to [Stan Regression Model](https://mc-stan.org/docs/stan-users-guide/regression.html) and copy the first model on the page or copy from the space below.
