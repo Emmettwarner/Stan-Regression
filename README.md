@@ -2,9 +2,9 @@
 
 
 ### 1. Installation
-a. In your console you will need to install Stan on your device use ```pip install cmdstanpy```
+a. In your console you will need to install Stan on your device using ```pip install cmdstanpy```
 
-b. Once installed go into Jupyter Lab and then import cmdstanpy this lets you install cmdstan 
+b. Once installed go into Jupyter Lab, start a new notebook and import cmdstanpy which lets you install cmdstan 
 ```
 import cmdstanpy 
 cmdstanpy.install_cmdstan()
