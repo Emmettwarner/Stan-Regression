@@ -11,9 +11,9 @@ cmdstanpy.install_cmdstan()
 ``` 
 
 ### 2. Creating a .stan file
-  a. Navigate to [Stan Regression Model](https://mc-stan.org/docs/stan-users-guide/regression.html) and copy the first model on the page or copy from the space below.
-
-  b. In the same folder as you made the notebook create a text file in Jupyter Lab and paste the model in, then rename it as a .stan file.
+  a. Clone my repisitory to get the .stan file make sure its in the same virtual enviroment as your Jupyter notebook for ease of access.
+  
+  b. Stan has a lot of different data analysis models which you can explore here [Stan Models](https://mc-stan.org/docs/stan-users-guide/regression.html)
 
  ### Stan Linear Regression Model
 
@@ -34,16 +34,8 @@ model {
 ````
 
 ### 3. Python Libraries
-  a. The libraries I am using are here, make sure yours looks like this:
-  ```
-import cmdstanpy
-cmdstanpy.install_cmdstan()
-import os
-from cmdstanpy import CmdStanModel
-import pandas as pd
-import plotnine as pn
-import numpy as np
-```
+  a. The libraries I am using can also be found on my GitHub use ``` pip install -r requiremnets.txt ```
+  
   b. The python library os lets you open the .stan file in python.
   ```
 stan_reg = os.path.join('linear_reg.stan')
