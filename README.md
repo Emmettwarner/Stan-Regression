@@ -44,7 +44,7 @@ import pandas as pd
 import plotnine as pn
 import numpy as np
 ```
-  b. The python library os lets you call the .stan file into python.
+  b. The python library os lets you open the .stan file in python.
   ```
 stan_reg = os.path.join('linear_reg.stan')
 ```
