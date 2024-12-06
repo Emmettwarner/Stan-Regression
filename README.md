@@ -34,7 +34,7 @@ model {
 ````
 
 ### 3. Python Libraries
-  a. The libraries I am using can also be found on my GitHub use ``` pip install -r requirements.txt ```
+  a. The libraries I am using can be found on my GitHub use ``` pip install -r requirements.txt ```
   
   b. The python library os lets you open the .stan file in python.
   ```
